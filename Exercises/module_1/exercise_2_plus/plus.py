@@ -14,6 +14,8 @@ def main():
     animals_dog_age = map(lambda x: x["age"] * 7, animals_dog)
     animals_dog_age_sum = reduce(lambda x, y: x + y, animals_dog_age)
     print(animals_dog_age_sum)
+    print(sum(animal["age"] * 7 for animal in animals if animal["kind"] == "dog"))
+
     #133
 
 if __name__ == "__main__":
