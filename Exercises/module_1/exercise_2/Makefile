@@ -6,6 +6,3 @@ run-map:
 
 run-reduce:
 	@python reduce.py
-
-run-plus:
-	@python plus.py
