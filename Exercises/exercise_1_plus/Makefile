@@ -1,0 +1,2 @@
+run:
+	python generator.py
