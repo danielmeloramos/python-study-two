@@ -10,4 +10,4 @@ data = {
     "age": 30
 }
 
-print(main(**data))
+main(**data)
