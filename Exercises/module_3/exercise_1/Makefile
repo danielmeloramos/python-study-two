@@ -1,0 +1,2 @@
+run:
+	@python decorator.py
